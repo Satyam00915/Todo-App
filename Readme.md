@@ -39,10 +39,6 @@ The project is divided into two main parts:
 
 Contributions are welcome! See the specific README files in the `frontend/` and `backend/` directories for more details on contributing.
 
-## Live Demo
-
-Live Preview is available [here](https://fullstack-todolist-1.onrender.com/).
 
 ---
 
-Feel free to customize this README further based on your project specifics! 😊 If you need additional details or have any other requests, feel free to ask! 🚀
