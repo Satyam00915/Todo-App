@@ -1,0 +1,27 @@
+#btn {
+  border: 1px solid grey;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(0, 74, 143);
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#btn:hover {
+  opacity: 0.8;
+}
+
+#btn:active {
+  opacity: 1;
+}
+
+input {
+  color: darkmagenta;
+}
+
+.adder {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
