@@ -8,11 +8,15 @@ import Items from "./components/Items";
 function App() {
   const [todos, setTodos] = useState([]);
 
-  fetch("http://localhost:3000/todos").then((response) => {
-    response.json().then((data) => {
-      setTodos(data.Todo);
-    });
-  });
+  useEffect(() => {
+    setInterval(() => {
+      fetch("http://localhost:3000/todos").then((response) => {
+        response.json().then((data) => {
+          setTodos(data.Todo);
+        });
+      });
+    }, 5000);
+  }, []);
   return (
     <>
       <h1>Todo - App</h1>
